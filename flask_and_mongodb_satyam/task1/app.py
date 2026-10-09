@@ -28,3 +28,5 @@ def get_api_data():
 if __name__ == '__main__':
     # Run the server locally on http://127.0.0.1:5000
     app.run(debug=True)
+
+    # Note: This is for local development only. For production, use a proper WSGI server like Gunicorn.
